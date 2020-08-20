@@ -1,0 +1,107 @@
+.padding{
+    padding: 15%;
+}
+
+.connect-padding{
+    padding: 15%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.title-1{
+    color: #ffa500;
+}
+
+.title-2{
+    color: #ffa500;
+}
+
+.title-3{
+    color: white;
+}
+
+.jumbotron-fluid{
+    background-color: white;
+}
+
+
+.navbar{
+    background-color: #ffa500;
+}
+
+.resume-title{
+    font-size: 1.25em; 
+}
+
+.resume-location{
+    font-size: 1em;
+    font-weight: normal;
+    font-style: italic;
+    color: gray;
+}
+
+.v-divider{
+    border-right:1px solid gray;
+}
+
+/*Makes vertical line disappear on small screens*/
+@media (max-width:767px) {
+.v-divider{
+    border:0px solid !important
+}
+}
+
+#skills{
+    background-color: lightgray;
+}
+
+.skills-image{
+    height: 120px;
+    width: auto;
+    margin: 20px;
+    margin-top: 50px;
+}
+
+.skills-text{
+    color: white;
+}
+
+.parallax{
+    background-image: url(images/t_background.png);
+    height: 100%;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.project-card{
+    min-height: 400px;
+    margin-top: 50px;
+}
+
+#connect{
+    background-color: #ffa500;
+}
+
+.fab, .far{
+    color: white;
+}
+
+.btn{
+    background-color: transparent;
+    border-radius: 50%;
+    border-width: 3px;
+    border-color: white;
+    width: 4em;
+    height: 4em;
+}
+
+.social a{
+    padding: 1rem;
+}
+
+footer{
+    background-color: #ffa500;
+}

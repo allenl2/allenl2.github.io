@@ -12,6 +12,16 @@ h1, h2, h3, h4, .navbar-link{
     font-family: 'Signika', sans-serif;
 }
 
+.lead{
+    font-family: Calibri, sans-serif;
+    font-size: 20px;
+}
+
+.resume-points, .card-text{
+    font-family: Calibri, sans-serif;
+    font-size: 16px;
+}
+
 .navbar-brand{
     font-family: 'Signika', sans-serif;
     font-weight: 600;
@@ -20,10 +30,12 @@ h1, h2, h3, h4, .navbar-link{
 
 .title-1{
     color: #ffa500;
+    font-weight: 600;
 }
 
 .title-2{
     color: #ffa500;
+    font-weight: 400;
 }
 
 .title-3{
@@ -45,7 +57,7 @@ h1, h2, h3, h4, .navbar-link{
 
 .resume-location{
     font-size: 1em;
-    font-weight: normal;
+    font-weight: 300;
     font-style: italic;
     color: gray;
 }

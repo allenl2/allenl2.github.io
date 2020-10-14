@@ -44,7 +44,8 @@ h1, h2, h3{
 }
 
 #navbar-item{
-    color: black;
+    font-family: 'Signika', sans-serif;
+    font-weight: 500;
 }
 
 /***** About Section *****/
@@ -117,6 +118,10 @@ h1, h2, h3{
 }
 
 /***** Projects Section  *****/
+.card-img-top{
+    max-width: 100%;
+    height: auto;
+}
 
 .project-card{
     min-height: 400px;

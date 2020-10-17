@@ -38,6 +38,11 @@ h1, h2, h3{
     color: white;
 }
 
+.resume-points, .card-text, .about-text{
+    font-family: Calibri, sans-serif;
+    font-size: 18px;
+}
+
 .image_bar_title{
     width: auto;
     height: 70px;
@@ -52,6 +57,10 @@ h1, h2, h3{
 .image_bars{
     width: auto;
     height: 50px;
+}
+
+p{
+    margin-bottom: 25px;
 }
 
 /***** Navbar Elements *****/
@@ -75,10 +84,6 @@ h1, h2, h3{
 }
 
 /***** About Section *****/
-#intro-container{
-    background-image: linear-gradient(#ffce73,  white, white);
-}
-
 #icon_orange{
     background-color: transparent;
     border-radius: 50%;
@@ -94,7 +99,7 @@ h1, h2, h3{
 
 .lead{
     font-family: Calibri, sans-serif;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .bold-word{
@@ -102,17 +107,11 @@ h1, h2, h3{
 }
 
 /***** Experience Section *****/
-
-.resume-points, .card-text{
-    font-family: Calibri, sans-serif;
-    font-size: 16px;
-}
-
 .resume-title{
     font-size: 1.25em; 
 }
 
-.resume-location{
+.resume-location, .proj-skills{
     font-size: 1em;
     font-weight: 300;
     font-style: italic;
@@ -131,10 +130,6 @@ h1, h2, h3{
 }
 
 /***** Skills Section *****/
-#skills{
-    background-color: lightgray;
-}
-
 .skills-image{
     height: 120px;
     width: auto;
@@ -179,10 +174,14 @@ h1, h2, h3{
 
 #icons_orange{
     color: #ffa500;
+    font-size: 1rem;
 }
 
 #btn_orange{
     border-color: #ffa500;
+    width: 3em;
+    height: 3em;
+    border-width: 2px;
 }
 
 #btn_space{

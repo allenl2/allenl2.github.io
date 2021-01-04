@@ -6,31 +6,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous" defer></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous" defer></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous" defer></script>
-
-    <!-- Animate On Scroll -->
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
-    <!-- Google Fonts: Signika -->
-    <link href="https://fonts.googleapis.com/css2?family=Signika:wght@300;400;600&display=swap" rel="stylesheet">
-
     <title>Allen Liu</title>
-    <link rel="stylesheet" href="style.css">
 
-    <link rel="icon" href="images/site_logo.png">
-  
+    <!-- Common header loading -->
+    <script src="header.js"></script>
 </head>
-
 
 <body>
 <!--Navigation Bar-->
@@ -71,6 +51,7 @@
             
             <p class="lead text-center" data-aos="fade-up">I love solving problems of all forms and designing solutions to improve our quality of life. </p>
             <p class="lead text-center" data-aos="fade-up">Let's get in touch!</p>
+            <a href="projects.html">Go to Projects</a>
         </div>
 
         <div class="container-fluid">
@@ -123,7 +104,7 @@
         </p>
     </div>
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-5 col-xl-5">
-        <img class="img-fluid" data-aos="fade-up" src="images/bordered_picture.png" alt="profile picture">
+        <img class="img-fluid" id="profile-picture" data-aos="fade-up" src="images/bordered_picture.png" alt="profile picture">
     </div>
 </div>
 </div>
@@ -333,47 +314,13 @@
 
 <!-- Connect -->
 <section id="connect">
-<div class="container-fluid connect-padding" data-aos="fade-up">
-    <div class="row">
-        <div class="col-12 text-center">
-            <h2 class="section-title-w">Let's Connect!</h2>
-        </div>
-    </div>
-
-    <div class="row mt-4 justify-content-center">
-        <div class="col-xs-12 col-m-4 social">
-            <a href="mailto:a268liu@uwaterloo.ca"><button type="button" class="btn">
-                <i class="far fa-envelope fa-2x" id="icons_white"></i>   
-            </button></a>
-        </div>
-        <div class="col-xs-12 col-m-4 social">
-            <a href="https://www.linkedin.com/in/allenliu02/" target="_blank"><button type="button" class="btn">
-                <i class="fab fa-linkedin-in fa-2x" id="icons_white"></i>   
-            </button></a>
-        </div>
-        <div class="col-xs-12 col-m-4 social">
-            <a href="https://github.com/allenl2" target="_blank"><button type="button" class="btn">
-                <i class="fab fa-github fa-2x" id="icons_white"></i>   
-            </button></a>
-        </div>
-    </div>
-   
-</div>
 </section>
 
 <footer>
-    <div></div>
-
 </footer>
 
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init(
-        {
-            duration:500
-        }
-    );
-  </script>
+<script src="footer.js"></script>
 
 </body>
    

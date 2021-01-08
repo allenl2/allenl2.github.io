@@ -10,36 +10,20 @@
 
     <!-- Common header loading -->
     <script src="header.js"></script>
+
+    <!-- Analytics.js // Segment Data Analytics -->
+    <script>
+        !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware"];analytics.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);analytics.push(t);return analytics}};for(var e=0;e<analytics.methods.length;e++){var key=analytics.methods[e];analytics[key]=analytics.factory(key)}analytics.load=function(key,e){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=e};analytics.SNIPPET_VERSION="4.13.1";
+        analytics.load("WxgEYB35ZPMYgxff0UuSR8JtftWoxpcl");
+        analytics.page();
+        }}();
+      </script>
 </head>
 
 <body>
+
 <!--Navigation Bar-->
 <nav class="navbar navbar-expand-md navbar-dark sticky-top">
-<div class="container-fluid">
-
-    <a class="navbar-brand" href="#">Allen Liu</a>
-
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-                <a class="nav-link" id="navbar-item" href="#about">About</a>
-            </li>
-            <li class="nav-item active">
-                <a class="nav-link" id="navbar-item" href="#experience">Experience</a>
-            </li>
-            <li class="nav-item active">
-                <a class="nav-link" id="navbar-item" href="#skills">Skills</a>
-            </li>
-            <li class="nav-item active">
-                <a class="nav-link" id="navbar-item" href="#projects">Projects</a>
-            </li>
-        </ul>
-    </div>
-</div>
 </nav>
 
 <!-- Intro/Jumbotron -->
@@ -51,7 +35,6 @@
             
             <p class="lead text-center" data-aos="fade-up">I love solving problems of all forms and designing solutions to improve our quality of life. </p>
             <p class="lead text-center" data-aos="fade-up">Let's get in touch!</p>
-            <a href="projects.html">Go to Projects</a>
         </div>
 
         <div class="container-fluid">
@@ -87,7 +70,7 @@
         </div>
     </div>
     </div>
-    </section>
+</section>
 
 <!-- About Me -->
 <section id="about">
@@ -308,6 +291,7 @@
             </div>
         </div>
     </div>
+    <a href="projects.html">Go to Projects</a>
 
 </div>
 </section>

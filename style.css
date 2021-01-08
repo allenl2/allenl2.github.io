@@ -167,6 +167,11 @@ p {
   margin-top: 50px;
 }
 
+.project-sum {
+  margin-top: 50px;
+  min-height: 280px;
+}
+
 /***** Connect Section & Footer *****/
 
 #connect {

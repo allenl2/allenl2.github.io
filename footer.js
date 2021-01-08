@@ -1,7 +1,38 @@
 const connect = document.querySelector('#connect');
+const navbar = document.querySelector('nav');
 
 loadAnimation();
 loadConnect();
+loadNavBar();
+
+function loadNavBar() {
+    navbar.innerHTML = `
+    <div class="container-fluid">
+
+    <a class="navbar-brand" href="./index.html">Allen Liu</a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <a class="nav-link" id="navbar-item" href="./index.html#about">About</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" id="navbar-item" href="./index.html#experience">Experience</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" id="navbar-item" href="./index.html#skills">Skills</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" id="navbar-item" href="./index.html#projects">Projects</a>
+            </li>
+        </ul>
+    </div>
+    </div>`;
+}
 
 function loadConnect() {
     connect.innerHTML = `

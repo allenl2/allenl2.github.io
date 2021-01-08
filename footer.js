@@ -1,5 +1,5 @@
 const connect = document.querySelector('#connect');
-const navbar = document.querySelector('nav');
+const navbar = document.querySelector('#navigation');
 
 loadAnimation();
 loadConnect();

@@ -18,20 +18,22 @@ function loadNavBar() {
     <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-                <a class="nav-link" id="navbar-item" href="./index.html#about">About</a>
+                <a class="nav-link" id="navbar-item" href="./index.html#about" onclick="clickAbout();">About</a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" id="navbar-item" href="./index.html#experience">Experience</a>
+                <a class="nav-link" id="navbar-item" href="./index.html#experience" onclick="clickExperience();">Experience</a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" id="navbar-item" href="./index.html#skills">Skills</a>
+                <a class="nav-link" id="navbar-item" href="./index.html#skills" onclick="clickSkills();">Skills</a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" id="navbar-item" href="./index.html#projects">Projects</a>
+                <a class="nav-link" id="navbar-item" href="./index.html#projects" onclick="clickProjects();">Projects</a>
             </li>
         </ul>
     </div>
     </div>`;
+    analytics.identify();
+    analytics.page("Home");
 }
 
 function loadConnect() {
@@ -45,17 +47,17 @@ function loadConnect() {
 
     <div class="row mt-4 justify-content-center">
         <div class="col-xs-12 col-m-4 social">
-            <a href="mailto:a268liu@uwaterloo.ca"><button type="button" class="btn">
+            <a href="mailto:a268liu@uwaterloo.ca"><button type="button" class="btn" onclick="clickEmail();">
                 <i class="far fa-envelope fa-2x" id="icons_white"></i>   
             </button></a>
         </div>
         <div class="col-xs-12 col-m-4 social">
-            <a href="https://www.linkedin.com/in/allenliu02/" target="_blank"><button type="button" class="btn">
+            <a href="https://www.linkedin.com/in/allenliu02/" target="_blank"><button type="button" class="btn" onclick="clickLinkedin()">
                 <i class="fab fa-linkedin-in fa-2x" id="icons_white"></i>   
             </button></a>
         </div>
         <div class="col-xs-12 col-m-4 social">
-            <a href="https://github.com/allenl2" target="_blank"><button type="button" class="btn">
+            <a href="https://github.com/allenl2" target="_blank"><button type="button" class="btn" onclick="clickGithub()">
                 <i class="fab fa-github fa-2x" id="icons_white"></i>   
             </button></a>
         </div>
@@ -69,4 +71,32 @@ function loadAnimation(){
             duration:500
         }
     );
+}
+
+function clickAbout() {
+    analytics.track("View About");
+}
+
+function clickExperience() {
+    analytics.track("View Experience");
+}
+
+function clickSkills() {
+    analytics.track("View Skills");
+}
+
+function clickProjects() {
+    analytics.track("View Projects");
+}
+
+function clickEmail() {
+    analytics.track("View External Email");
+}
+
+function clickLinkedin() {
+    analytics.track("View External Linkedin");
+}
+
+function clickGithub() {
+    analytics.track("View External Github");
 }
